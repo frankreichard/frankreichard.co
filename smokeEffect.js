@@ -122,7 +122,7 @@ var smokemachine = function (context, color){
 
 
 
-	var canvas = document.getElementById('canvas')
+	var canvas = document.getElementById('canvas-smoke')
 	var ctx = canvas.getContext('2d')
 	canvas.width = innerWidth
 	canvas.height = innerHeight
