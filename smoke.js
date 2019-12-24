@@ -1,3 +1,5 @@
+<script>
+
 var smokemachine = function (context, color){
     color = color || [24, 46.8, 48.2]
     var polyfillAnimFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
@@ -124,8 +126,8 @@ var smokemachine = function (context, color){
 
 	var canvas = document.getElementById('canvas')
 	var ctx = canvas.getContext('2d')
-	canvas.width = innerWidth
-	canvas.height = innerHeight
+	canvas.width = canvas.clientWidth;
+canvas.height = canvas.clientHeight;
 
 	var party = smokemachine(ctx, [54, 16.8, 18.2])
 	party.start() // start animating
@@ -141,3 +143,5 @@ var smokemachine = function (context, color){
 	setInterval(function(){
 		party.addsmoke(innerWidth/2, innerHeight, 1)
 	}, 100)
+
+</script>
