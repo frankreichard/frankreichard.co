@@ -1,12 +1,12 @@
 var smokemachine = function (context, color){
-    color = color || [211, 211, 211]
+    color = color || [200, 211, 211]
     var polyfillAnimFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
                                   window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
     var lastframe;
     var currentparticles = []
     var pendingparticles = []
 
-    var buffer = document.createElement('canvasSmoke'),
+    var buffer = document.createElement('canvas'),
         bctx = buffer.getContext('2d')
 
     buffer.width = 20
