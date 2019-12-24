@@ -1,5 +1,5 @@
 var smokemachine = function (context, color){
-    color = color || [24, 46.8, 48.2]
+    color = color || [211, 211, 211]
     var polyfillAnimFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
                                   window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
     var lastframe;
