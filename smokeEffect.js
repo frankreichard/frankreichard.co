@@ -127,7 +127,7 @@ var smokemachine = function (context, color){
 	canvas.width = innerWidth
 	canvas.height = innerHeight
 
-	var party = smokemachine(ctx, [54, 16.8, 18.2])
+	var party = smokemachine(ctx, 211, 211, 211])
 	party.start() // start animating
 
 	onmousemove = function (e) {
