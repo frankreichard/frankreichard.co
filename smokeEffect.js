@@ -6,7 +6,7 @@ var smokemachine = function (context, color){
     var currentparticles = []
     var pendingparticles = []
 
-    var buffer = document.createElement('canvas'),
+    var buffer = document.createElement('canvasSmoke'),
         bctx = buffer.getContext('2d')
 
     buffer.width = 20
