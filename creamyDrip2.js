@@ -1,6 +1,6 @@
 'use strict';
 
-const canvas = document.getElementsByID('canvas1')[0];
+const canvas = document.getElementsByID('creamyCanvas2')[0];
 canvas.width = canvas.clientWidth;
 canvas.height = canvas.clientHeight;
 
